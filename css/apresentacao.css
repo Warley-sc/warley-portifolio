@@ -1,0 +1,141 @@
+.works {
+    background-color: white;
+    min-height: 300px;
+    padding: 25px;
+    width: 100%;
+}
+
+.works-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.works-text hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.works-intro h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.works-apresentacao {
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+
+.wraper-img1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wraper-project-config {
+    background-color: #2b3135;
+    padding: 15px;
+    border-radius: 8px;
+    width: 25%;
+    min-width: 350px;
+    margin-right: 10px;
+    min-height: 550px;
+}
+
+.wraper-project-config figure img {
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+
+}
+
+.header-text-project {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin: 10px 0;
+}
+
+.text-project {
+    font-size: 1em;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.wraper-project-config hr {
+    margin: 25px auto;
+    width: 50%;
+}
+.header-text-project{
+    font-size: 1.4em;
+}
+
+.button-project {
+    width: 60%;
+    margin: 25px auto;
+    padding: 15px;
+    background-color: #fffd24;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-project a {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.git {
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.git-txt {
+    text-align: center;
+    font-size: 2em;
+    padding: 25px 0;
+}
+
+.gitlink {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.gitlink a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    transition: 1s;
+}
+
+.gitlink a:hover {
+    color: blue;
+    transform:scale(1.2)
+}
+.arrow3{
+    background-color: white;
+    color: black ;
+}
+.arrow3 i{
+
+    color: black;
+}
+
+@media screen and (max-width: 1144px) {
+    .wraper-img1 {
+        justify-content: space-around;
+    }
+
+    .wraper-project-config {
+        width: 40%;
+        min-width: 300px;
+        margin: 20px 10px 0 0;
+
+    }
+}

@@ -1,0 +1,108 @@
+.cabecario {
+    width: 100%;
+        min-height: 300px;
+    padding: 25px;
+}
+
+.header-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wraper-columns {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.configure-wraper {
+    min-width: 350px;
+    width: 40%;
+}
+
+.wraper-logo {
+    display: flex;
+    align-items: center;
+}
+
+.name-logo h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+   
+}
+
+.text-description {
+    margin-top: 80px;
+    width: 60%;
+    text-transform: uppercase;
+    color: #fffd24;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+
+.img-figura figure img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: rgba(237, 240, 46, 0.4) 5px 5px, rgba(240, 224, 46, 0.3) 10px 10px, rgba(240, 221, 46, 0.2) 15px 15px, rgba(240, 233, 46, 0.1) 20px 20px, rgba(240, 208, 46, 0.05) 25px 25px;
+}
+
+
+.arrow-down {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.arrow-down i {
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 915px) {
+    .header-wraper {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wraper-columns {
+        display: flex;
+        justify-content: center;
+        flex-direction: center;
+    }
+
+    .img-figura {
+        width: 100%;
+    }
+
+    .img-figura figure img {
+        max-width: none;
+        min-width: 200px;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 25px;
+        box-shadow: rgba(0, 0, 0, 0.634) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .configure-wraper {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text-description {
+        text-align: center;
+        margin-top: 40px;
+        width: 60%;
+        text-transform: uppercase;
+        color: #fffd24;
+        font-size: 25px;
+    }
+}

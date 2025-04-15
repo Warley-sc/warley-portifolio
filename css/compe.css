@@ -1,0 +1,62 @@
+
+.back-competencias {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../imagens/ChatGPT\ Image\ 14\ de\ abr.\ de\ 2025\,\ 17_12_42.png);
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.intro-competencias {
+    background-color: #fffd24;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.header-conpetencias {
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.intro-competencias hr {
+    margin: 15px auto;
+    border: solid 1px black;
+}
+
+.tex-competencias {
+    padding: 20px;
+    font-size: 1em;
+}
+
+.wraper-competencias{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.configur-compe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.wraper-comp{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px auto;
+    border-radius: 75px;
+    background-color: #fffd24;
+    font-size: 5em;
+
+}
+
